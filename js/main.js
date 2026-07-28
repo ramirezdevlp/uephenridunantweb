@@ -4,7 +4,7 @@ const closeMenu = document.querySelector('.close-menu')
 const links = document.querySelectorAll('.link')
 const overlay = document.querySelector('.overlay')
 
-// Función para activar el Menú Hamburgesa
+// Función para activar el Menú de Secciones
 const toggleMenu = function () {
 
     navbar.classList.toggle('active');
@@ -12,7 +12,7 @@ const toggleMenu = function () {
 
 }
 
-// Eventos para abrir y cerrar el Menú Hamburgesa
+// Eventos para abrir y cerrar el Menú de Secciones
 openMenu.addEventListener('click', toggleMenu)
 closeMenu.addEventListener('click', toggleMenu)
 overlay.addEventListener('click', toggleMenu)
